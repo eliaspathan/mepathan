@@ -10,7 +10,7 @@
 Welcome to **mepathan** — my portfolio repository for **data analytics, business intelligence, and Power Platform solutions**. This space highlights the projects, tools, and technologies I use to turn raw data into actionable insights, automate workflows, and build practical business solutions.
 
 ## About Me
-I am a **Data Analyst** with experience in **Business Intelligence** and the **Microsoft Power Platform**. I enjoy working with data to uncover trends, build dashboards, improve reporting, and create solutions that help teams make better decisions and work more efficiently.
+Data Analyst specializing in business intelligence, reporting, and process improvement—using SQL, Excel, Power BI, Power Apps, Power Automate, and SharePoint to turn data into insights, dashboards, automation, and business solutions.
 
 ## What I Do
 - Clean, transform, and analyze data for decision-making
