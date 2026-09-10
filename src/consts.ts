@@ -1,5 +1,3 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
-export const SITE_TITLE = 'Astro Blog';
-export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const SITE_TITLE = 'MePathan';
+export const SITE_DESCRIPTION =
+  'Practical guides, tutorials, and ideas about Power BI, Power Automate, Power Apps, SQL, analytics, and business technology.';
