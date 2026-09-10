@@ -1,72 +1,63 @@
-# Elias Pathan
+# Astro Starter Kit: Blog
 
-![Data Analyst](https://img.shields.io/badge/Data%20Analyst-Analytics%20%26%20BI-2563eb)
-![Power Platform](https://img.shields.io/badge/Power%20Platform-Power%20Apps%20%7C%20Power%20Automate%20%7C%20SharePoint-7c3aed)
-![SQL](https://img.shields.io/badge/SQL-Advanced-0ea5e9)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboards-f59e0b)
+```sh
+npm create astro@latest -- --template blog
+```
 
-## Turning data into insights, dashboards, and business solutions.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-Welcome to **mepathan** — my portfolio repository for **data analytics, business intelligence, and Power Platform solutions**. This space highlights the projects, tools, and technologies I use to turn raw data into actionable insights, automate workflows, and build practical business solutions.
+Features:
 
-## About Me
-Data Analyst specializing in business intelligence, reporting, and process improvement—using SQL, Excel, Power BI, Power Apps, Power Automate, and SharePoint to turn data into insights, dashboards, automation, and business solutions.
+- ✅ Minimal styling (make it your own!)
+- ✅ 100/100 Lighthouse performance
+- ✅ SEO-friendly with canonical URLs and Open Graph data
+- ✅ Sitemap support
+- ✅ RSS Feed support
+- ✅ Markdown & MDX support
 
-## What I Do
-- Clean, transform, and analyze data for decision-making
-- Build dashboards and reports using **Power BI**
-- Develop business apps with **Power Apps**
-- Automate workflows and repetitive processes with **Power Automate**
-- Support collaboration and document solutions using **SharePoint**
-- Present insights through clear visualizations and business-focused reporting
+## 🚀 Project Structure
 
-## Core Skills
-- **Data Cleaning & Transformation**
-- **Exploratory Data Analysis (EDA)**
-- **Business Intelligence & Reporting**
-- **Dashboard Development**
-- **Power Platform Solutions**
-- **Process Automation**
-- **KPI Tracking & Performance Analysis**
+Inside of your Astro project, you'll see the following folders and files:
 
-## Tools & Technologies
-- **SQL**
-- **Python**
-- **Excel**
-- **Power BI**
-- **Power Apps**
-- **Power Automate**
-- **SharePoint**
-- **Tableau**
-- **Pandas / Matplotlib**
+```text
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
+├── astro.config.mjs
+├── README.md
+├── package.json
+└── tsconfig.json
+```
 
-## Portfolio Areas
-This repository is intended to showcase work such as:
-- Data analysis case studies
-- Business intelligence dashboards
-- SQL-based reporting and analytics projects
-- Python data exploration and analysis
-- Power Apps solutions for business processes
-- Power Automate workflows and automation use cases
-- SharePoint-integrated process and reporting solutions
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-## Project Themes
-- Sales and revenue analysis
-- Customer and product insights
-- KPI and performance dashboards
-- Operational reporting
-- Workflow automation
-- Process improvement solutions
-- Trend analysis and forecasting support
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-## Current Focus
-- Building a stronger portfolio in **Data Analytics, BI, and Power Platform**
-- Creating practical dashboard and reporting solutions
-- Developing business applications and automation workflows
-- Improving data storytelling and decision support
+The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
 
-## Connect
-- GitHub: [@eliaspathan](https://github.com/eliaspathan)
+Any static assets, like images, can be placed in the `public/` directory.
 
----
-**Thanks for visiting my portfolio repository.**
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Credit
+
+This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
