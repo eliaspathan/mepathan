@@ -1,0 +1,1 @@
+---\ntitle: Test Article\ndescription: Test article from Make\npubDate: 2026-09-10\n---\n\n# Test Article\n\nThis article was automatically published from Make.com.\
